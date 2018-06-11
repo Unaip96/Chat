@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.usuario6i.chat_v2.ConversacionesActivity">
+
+<EditText
+    android:id="@+id/tbNick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:ems="10"
+    android:inputType="textPersonName" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/tbNick"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="30dp"
+    android:text="Nick:" />
+
+<Button style="@style/Widget.AppCompat.Button.Colored"
+    android:id="@+id/btnEntrar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tbNick"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="53dp"
+    android:text="Entrar" />
+</RelativeLayout>
